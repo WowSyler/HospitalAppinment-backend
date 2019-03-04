@@ -25,5 +25,6 @@ namespace HospitalGuide.Webapi.Data.Concrete.EF
         public DbSet<HospitalClinics> HospitalClinics { get; set; }
         public DbSet<Rates> Rates { get; set; }
         public DbSet<Admins> Admins { get; set; }
+        
     }
 }
